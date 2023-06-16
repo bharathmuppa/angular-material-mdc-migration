@@ -1,4 +1,4 @@
-# angular-material-mdc-migration
+# Angular Material Mdc Migration
 Comprehensive list of classes which are not migrated by "ng generate @angular/material:mdc-migration"
 
 # Mat Tab:
