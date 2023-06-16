@@ -54,6 +54,6 @@ Comprehensive list of classes which are not migrated by "ng generate @angular/ma
 # Removed:
 - mat-checkbox-layout
 
-# Uknowns:
+# Unknowns:
 - mat-checkbox-inner-container
 
