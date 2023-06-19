@@ -1,59 +1,45 @@
 # Angular Material Mdc Migration
-Comprehensive list of classes which are not migrated by "ng generate @angular/material:mdc-migration"
+Comprehensive list of classes which are not automatically  migrated by "ng generate @angular/material:mdc-migration"
 
-# Mat Tab:
-- mat-tab-label-active to mdc-tab--active
-- mat-tab-label-content to mdc-tab__content
-- mat-tab-label-container to mat-mdc-tab-label-container
-- mat-tab-list to mat-mdc-tab-list
-- mat-tab-body-wrapper to mat-mdc-tab-body-wrapper
-- mat-tab-label to mat-mdc-tab
-- mat-tab-header-pagination-controls-enabled to mat-mdc-tab-header-pagination-controls-enabled
-- mat-tab-header-pagination to mat-mdc-tab-header-pagination
-- mat-tab-labels to mat-mdc-tab-labels
+| Component | Old Class | New Class |
+| --- | --- | ---|
+| mat-tab | mat-tab-label-active | mdc-tab--active|
+||mat-tab-label-content	| mdc-tab__content |
+||mat-tab-label-container	|mat-mdc-tab-label-container|
+|| mat-tab-list |	mat-mdc-tab-list|
+||mat-tab-body-wrapper |	mat-mdc-tab-body-wrapper|
+||mat-tab-label|	mat-mdc-tab|
+||mat-tab-header-pagination-controls-enabled |	mat-mdc-tab-header-pagination-controls-enabled|
+||mat-tab-header-pagination	|mat-mdc-tab-header-pagination|
+||mat-tab-labels	| mat-mdc-tab-labels|
+|mat-chip|mat-chip-list	| mat-mdc-chip-list|
+||mat-chip-list-wrapper |	mat-chip-list-wrapper|
+|mat-checkbox|mat-checkbox-frame	| mdc-checkbox__checkmark|
+||mat-checkbox-label|	mdc-label|
+||mat-checkbox-checked	| mat-mdc-checkbox-checked|
+||mat-checkbox-label|mdc-label|
+||mat-checkbox-layout|-|
+|mat-button|mat-button-focus-overlay|mat-mdc-focus-indicator|
+|mat-radio|mat-radio-outer-circle	| mdc-radio__outer-circle|
+||mat-radio-inner-circle	| mdc-radio__inner-circle|
+||mat-radio-checked|	mat-mdc-radio-checked|
+||mat-radio-label-content|	mdc-label|
+||mat-radio-label|mdc -label|
+|mat-progress-bar|mat-progress-bar-buffer |	mdc-linear-progress__buffer|
+|mat-form-field|mat-form-field-flex | mat-mdc-form-field-flex|
+||mat-form-field-wrapper	| mat-mdc-text-field-wrapper|
+||mat-form-field-underline|	mdc-line-ripple|
+||mat-form-field-subscript-wrapper	| mat-mdc-form-field-subscript-wrapper|
+||mat-form-field-prefix	| mat-mdc-form-field-text-prefix|
+||mat-form-field-suffix	| mat-mdc-form-field-text-suffix|
+||mat-form-field-infix	| mat-mdc-form-text-infix|
+||mat-form-field-label	| mat-mdc-floating-label|
+|mat-dialog|mat-dialog-container	| mdc-dialog__container|
+||mat-dialog-content	| mat-mdc-dialog-content|
+|No Change|||
+||mat-button-toggle||
+||mat-button-toggle-checked||
+||mat-button-toggle-disabled||
+||mat-button-toggle-focus-overlay||
 
-# Chip:
-- mat-chip-list to mat-mdc-chip-list
-- mat-chip-list-wrapper to mat-chip-list-wrapper
-
-# Checkbox:
-- mat-checkbox-frame to mdc-checkbox__checkmark
-- mat-checkbox-label to mdc-label
-- mat-checkbox-checked to mat-mdc-checkbox-checked
-
-# Button Text:
-- mat-button-focus-overlay to mat-mdc-focus-indicator
-
-# Radio Button:
-- mat-radio-outer-circle to mdc-radio__outer-circle
-- mat-radio-inner-circle to mdc-radio__inner-circle
-- mat-radio-checked to mat-mdc-radio-checked
-- mat-radio-label-content to mdc-label
-- mat-radio-label to mdc -label
-
-
-# Progress Bar:
-- mat-progress-bar-buffer to mdc-linear-progress__buffer
-
-# Form Fields:
-- mat-form-field-flex to mat-mdc-form-field-flex
-- mat-form-field-wrapper to mat-mdc-text-field-wrapper
-- mat-form-field-underline to mdc-line-ripple
-- mat-form-field-subscript-wrapper to mat-mdc-form-field-subscript-wrapper
-- mat-form-field-prefix to mat-mdc-form-field-text-prefix
-- mat-form-field-suffix to mat-mdc-form-field-text-suffix
-- mat-form-field-infix to mat-mdc-form-text-infix
-- mat-form-field-label to mat-mdc-floating-label
-
-# No Change:
-- mat-button-toggle
-- mat-button-toggle-checked
-- mat-button-toggle-disabled
-- mat-button-toggle-focus-overlay
-
-# Removed:
-- mat-checkbox-layout
-
-# Unknowns:
-- mat-checkbox-inner-container
 
